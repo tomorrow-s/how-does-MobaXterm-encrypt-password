@@ -1,8 +1,14 @@
 # Reveal password encrypted by MobaXterm
 
+说明：使用大佬 https://github.com/HyperSine/how-does-MobaXterm-encrypt-password 的源进行的改进。。。由于无法上传新的 文件，所以转移到我这里，如果有问题可以随时联系我。
+
+
+
+
 ## 1. How does it work?
 
 See [here](doc/how-does-mobaxterm-encrypt-password.md)
+
 
 ## 2. How to use?
 
