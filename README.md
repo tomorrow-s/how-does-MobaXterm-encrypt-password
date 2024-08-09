@@ -205,7 +205,10 @@ pip install pycryptodome
 
 <img width="1216" alt="image" src="https://github.com/user-attachments/assets/2afc11a2-89a2-4496-9667-079e84ef1ec8">
 
-在部署好的虚拟环境中执行解密
+在部署好的虚拟环境中执行解密,正常会返回解密后的明文密码
+   ```
+python3 /Downloads/MobaXtermCipher_fixed.py dec -sp 1 mTVD0000000000000000000000000000000000000000000000BfC70
+   ```
 
 <img width="1258" alt="image" src="https://github.com/user-attachments/assets/7fbab86a-e475-4cdf-867b-8162c601d1a5">
 
