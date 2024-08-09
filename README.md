@@ -178,25 +178,25 @@ __If you have set a master password in MobaXterm:__
 ## 4. Mac 系统下的使用
    如果使用 Mac 系统，通过brew 安装的 Python  需要启用虚拟环境 进行操作。
     使用虚拟环境:
-   ```
+
 创建一个虚拟环境：
 bash
 复制代码
-   ```
+
 python3 -m venv ~/myenv
-   ```
+
 激活虚拟环境：
 bash
 复制代码
-   ```
+
 source ~/myenv/bin/activate
-   ```
+
 在虚拟环境中安装 pycryptodome：
 bash
 复制代码
-   ```
+
 pip install pycryptodome
-   ```
+
 安装完成后，你可以运行你的脚本，虚拟环境中的包会被自动使用。
 
 <img width="1217" alt="image" src="https://github.com/user-attachments/assets/439b225a-647d-48de-b9ce-5917e1491671">
