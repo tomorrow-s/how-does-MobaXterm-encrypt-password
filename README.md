@@ -58,7 +58,7 @@ Usage:
                                  but must be specified if you set a master password in MobaXterm.
 ```
 
-## 3. Example:
+## 3. Example（Windows）:
 
 MobaXterm will save passwords and credentials in:
 
@@ -174,3 +174,37 @@ __If you have set a master password in MobaXterm:__
    ```
 
    where `12345678` is the master password you set.
+
+## 4. Mac 系统下的使用
+   如果使用 Mac 系统，通过brew 安装的 Python  需要启用虚拟环境 进行操作。
+    使用虚拟环境:
+   ```
+创建一个虚拟环境：
+bash
+复制代码
+python3 -m venv ~/myenv
+   ```
+激活虚拟环境：
+bash
+复制代码
+source ~/myenv/bin/activate
+   ```
+在虚拟环境中安装 pycryptodome：
+bash
+复制代码
+pip install pycryptodome
+   ```
+安装完成后，你可以运行你的脚本，虚拟环境中的包会被自动使用。
+
+<img width="1217" alt="image" src="https://github.com/user-attachments/assets/439b225a-647d-48de-b9ce-5917e1491671">
+
+找到 MobaXterm.ini 文件中的 密码字符串
+   ```
+<img width="1216" alt="image" src="https://github.com/user-attachments/assets/2afc11a2-89a2-4496-9667-079e84ef1ec8">
+   ```
+在部署好的虚拟环境中执行解密
+   ```
+<img width="1258" alt="image" src="https://github.com/user-attachments/assets/7fbab86a-e475-4cdf-867b-8162c601d1a5">
+   ```
+
+   
