@@ -1,7 +1,10 @@
 # Reveal password encrypted by MobaXterm
 
-说明：使用大佬 https://github.com/HyperSine/how-does-MobaXterm-encrypt-password 的源进行的改进。。。由于无法上传新的 文件，所以转移到我这里，如果有问题可以随时联系我。
+说明：使用大佬 https://github.com/HyperSine/how-does-MobaXterm-encrypt-password 的源进行的改进。
+由于无法上传新的MobaXtermCipher_fixed.py文件，所以转移到我这里，如果有问题可以随时联系我。
 
+MobaXtermCipher_fixed.py
+文件主要变更：将原作者脚本中的 ansi 编码替换为 utf-8
 
 
 
@@ -195,7 +198,7 @@ source ~/myenv/bin/activate
 bash
 复制代码
    ```
-pip install pycryptodome
+pip3 install pycryptodome
    ```
 安装完成后，你可以运行你的脚本，虚拟环境中的包会被自动使用。
 
