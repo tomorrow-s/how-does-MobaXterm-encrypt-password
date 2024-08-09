@@ -225,3 +225,4 @@ python3 /Downloads/MobaXtermCipher_fixed.py dec -sp 1 mTVD0000000000000000000000
 ```
   ls ~/myenv
 ```
+如果返回 No such file or directory，说明删除成功。
