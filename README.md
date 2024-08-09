@@ -3,6 +3,9 @@
 说明：使用大佬 https://github.com/HyperSine/how-does-MobaXterm-encrypt-password 的源进行的改进。
 由于无法上传新的MobaXtermCipher_fixed.py文件，所以转移到我这里，如果有问题可以随时联系我。
 
+* 我进行验证的环境是 MacBookPro M1 
+
+
 MobaXtermCipher_fixed.py
 文件主要变更：将原作者脚本中的 ansi 编码替换为 utf-8
 
@@ -215,5 +218,10 @@ python3 /Downloads/MobaXtermCipher_fixed.py dec -sp 1 mTVD0000000000000000000000
 
 <img width="1258" alt="image" src="https://github.com/user-attachments/assets/7fbab86a-e475-4cdf-867b-8162c601d1a5">
 
-
-   
+解密完成后，删除创建的临时虚拟环境
+```
+  rm -rf ~/myenv
+```
+```
+  ls ~/myenv
+```
